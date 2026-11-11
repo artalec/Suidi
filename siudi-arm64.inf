@@ -1,0 +1,303 @@
+; ============================================================
+;  siudi-arm64.inf
+;  ARM64 port of Nicolaudie siudi-stick.inf (WinUSB bind)
+;  Generated from official Siudi Drivers package (2018-08-20)
+; ============================================================
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = USB
+ClassGUID   = {36FC9E60-C465-11CF-8056-444553540000}
+Provider    = %ProviderName%
+DriverVer   = 10/20/2026,3.1
+; no CatalogFile -> unsigned package (requires testsigning)
+
+[Manufacturer]
+%ProviderName% = Das,NTx86,NTamd64,NTarm64
+
+[Das.NTx86]
+%VID_6244&PID_0300.DeviceDesc% =USB_Install, USB\VID_6244&PID_0300
+%VID_6244&PID_0301.DeviceDesc% =USB_Install, USB\VID_6244&PID_0301
+%VID_6244&PID_0302.DeviceDesc% =USB_Install, USB\VID_6244&PID_0302
+%VID_6244&PID_0303.DeviceDesc% =USB_Install, USB\VID_6244&PID_0303
+%VID_6244&PID_0410.DeviceDesc% =USB_Install, USB\VID_6244&PID_0410
+%VID_6244&PID_0411.DeviceDesc% =USB_Install, USB\VID_6244&PID_0411
+%VID_6244&PID_0530.DeviceDesc% =USB_Install, USB\VID_6244&PID_0530
+%VID_6244&PID_0531.DeviceDesc% =USB_Install, USB\VID_6244&PID_0531
+%VID_6244&PID_0532.DeviceDesc% =USB_Install, USB\VID_6244&PID_0532
+%VID_6244&PID_0420.DeviceDesc% =USB_Install, USB\VID_6244&PID_0420
+%VID_6244&PID_0421.DeviceDesc% =USB_Install, USB\VID_6244&PID_0421
+%VID_6244&PID_0430.DeviceDesc% =USB_Install, USB\VID_6244&PID_0430
+%VID_6244&PID_0431.DeviceDesc% =USB_Install, USB\VID_6244&PID_0431
+%VID_6244&PID_0440.DeviceDesc% =USB_Install, USB\VID_6244&PID_0440
+%VID_6244&PID_0441.DeviceDesc% =USB_Install, USB\VID_6244&PID_0441
+%VID_6244&PID_0510.DeviceDesc% =USB_Install, USB\VID_6244&PID_0510
+%VID_6244&PID_0511.DeviceDesc% =USB_Install, USB\VID_6244&PID_0511
+%VID_6244&PID_0450.DeviceDesc% =USB_Install, USB\VID_6244&PID_0450
+%VID_6244&PID_0451.DeviceDesc% =USB_Install, USB\VID_6244&PID_0451
+%VID_6244&PID_0490.DeviceDesc% =USB_Install, USB\VID_6244&PID_0490
+%VID_6244&PID_0491.DeviceDesc% =USB_Install, USB\VID_6244&PID_0491
+%VID_6244&PID_0590.DeviceDesc% =USB_Install, USB\VID_6244&PID_0590
+%VID_6244&PID_0591.DeviceDesc% =USB_Install, USB\VID_6244&PID_0591
+%VID_6244&PID_0600.DeviceDesc% =USB_Install, USB\VID_6244&PID_0600
+%VID_6244&PID_0601.DeviceDesc% =USB_Install, USB\VID_6244&PID_0601
+%VID_6244&PID_0610.DeviceDesc% =USB_Install, USB\VID_6244&PID_0610
+%VID_6244&PID_0611.DeviceDesc% =USB_Install, USB\VID_6244&PID_0611
+%VID_6244&PID_0620.DeviceDesc% =USB_Install, USB\VID_6244&PID_0620
+%VID_6244&PID_0621.DeviceDesc% =USB_Install, USB\VID_6244&PID_0621
+%VID_6244&PID_0400.DeviceDesc% =USB_Install, USB\VID_6244&PID_0400
+%VID_6244&PID_0401.DeviceDesc% =USB_Install, USB\VID_6244&PID_0401
+%VID_6244&PID_0470.DeviceDesc% =USB_Install, USB\VID_6244&PID_0470
+%VID_6244&PID_0471.DeviceDesc% =USB_Install, USB\VID_6244&PID_0471
+%VID_6244&PID_0460.DeviceDesc% =USB_Install, USB\VID_6244&PID_0460
+%VID_6244&PID_0461.DeviceDesc% =USB_Install, USB\VID_6244&PID_0461
+%VID_6244&PID_0500.DeviceDesc% =USB_Install, USB\VID_6244&PID_0500
+%VID_6244&PID_0501.DeviceDesc% =USB_Install, USB\VID_6244&PID_0501
+%VID_6244&PID_0520.DeviceDesc% =USB_Install, USB\VID_6244&PID_0520
+%VID_6244&PID_0521.DeviceDesc% =USB_Install, USB\VID_6244&PID_0521
+%VID_6244&PID_0480.DeviceDesc% =USB_Install, USB\VID_6244&PID_0480
+%VID_6244&PID_0481.DeviceDesc% =USB_Install, USB\VID_6244&PID_0481
+%VID_6244&PID_0540.DeviceDesc% =USB_Install, USB\VID_6244&PID_0540
+%VID_6244&PID_0541.DeviceDesc% =USB_Install, USB\VID_6244&PID_0541
+%VID_6244&PID_0560.DeviceDesc% =USB_Install, USB\VID_6244&PID_0560
+%VID_6244&PID_0561.DeviceDesc% =USB_Install, USB\VID_6244&PID_0561
+%VID_6244&PID_0570.DeviceDesc% =USB_Install, USB\VID_6244&PID_0570
+%VID_6244&PID_0571.DeviceDesc% =USB_Install, USB\VID_6244&PID_0571
+%VID_6244&PID_0580.DeviceDesc% =USB_Install, USB\VID_6244&PID_0580
+%VID_6244&PID_0581.DeviceDesc% =USB_Install, USB\VID_6244&PID_0581
+
+[Das.NTamd64]
+%VID_6244&PID_0300.DeviceDesc% =USB_Install, USB\VID_6244&PID_0300
+%VID_6244&PID_0301.DeviceDesc% =USB_Install, USB\VID_6244&PID_0301
+%VID_6244&PID_0302.DeviceDesc% =USB_Install, USB\VID_6244&PID_0302
+%VID_6244&PID_0303.DeviceDesc% =USB_Install, USB\VID_6244&PID_0303
+%VID_6244&PID_0410.DeviceDesc% =USB_Install, USB\VID_6244&PID_0410
+%VID_6244&PID_0411.DeviceDesc% =USB_Install, USB\VID_6244&PID_0411
+%VID_6244&PID_0530.DeviceDesc% =USB_Install, USB\VID_6244&PID_0530
+%VID_6244&PID_0531.DeviceDesc% =USB_Install, USB\VID_6244&PID_0531
+%VID_6244&PID_0532.DeviceDesc% =USB_Install, USB\VID_6244&PID_0532
+%VID_6244&PID_0420.DeviceDesc% =USB_Install, USB\VID_6244&PID_0420
+%VID_6244&PID_0421.DeviceDesc% =USB_Install, USB\VID_6244&PID_0421
+%VID_6244&PID_0430.DeviceDesc% =USB_Install, USB\VID_6244&PID_0430
+%VID_6244&PID_0431.DeviceDesc% =USB_Install, USB\VID_6244&PID_0431
+%VID_6244&PID_0440.DeviceDesc% =USB_Install, USB\VID_6244&PID_0440
+%VID_6244&PID_0441.DeviceDesc% =USB_Install, USB\VID_6244&PID_0441
+%VID_6244&PID_0510.DeviceDesc% =USB_Install, USB\VID_6244&PID_0510
+%VID_6244&PID_0511.DeviceDesc% =USB_Install, USB\VID_6244&PID_0511
+%VID_6244&PID_0450.DeviceDesc% =USB_Install, USB\VID_6244&PID_0450
+%VID_6244&PID_0451.DeviceDesc% =USB_Install, USB\VID_6244&PID_0451
+%VID_6244&PID_0490.DeviceDesc% =USB_Install, USB\VID_6244&PID_0490
+%VID_6244&PID_0491.DeviceDesc% =USB_Install, USB\VID_6244&PID_0491
+%VID_6244&PID_0590.DeviceDesc% =USB_Install, USB\VID_6244&PID_0590
+%VID_6244&PID_0591.DeviceDesc% =USB_Install, USB\VID_6244&PID_0591
+%VID_6244&PID_0600.DeviceDesc% =USB_Install, USB\VID_6244&PID_0600
+%VID_6244&PID_0601.DeviceDesc% =USB_Install, USB\VID_6244&PID_0601
+%VID_6244&PID_0610.DeviceDesc% =USB_Install, USB\VID_6244&PID_0610
+%VID_6244&PID_0611.DeviceDesc% =USB_Install, USB\VID_6244&PID_0611
+%VID_6244&PID_0620.DeviceDesc% =USB_Install, USB\VID_6244&PID_0620
+%VID_6244&PID_0621.DeviceDesc% =USB_Install, USB\VID_6244&PID_0621
+%VID_6244&PID_0400.DeviceDesc% =USB_Install, USB\VID_6244&PID_0400
+%VID_6244&PID_0401.DeviceDesc% =USB_Install, USB\VID_6244&PID_0401
+%VID_6244&PID_0470.DeviceDesc% =USB_Install, USB\VID_6244&PID_0470
+%VID_6244&PID_0471.DeviceDesc% =USB_Install, USB\VID_6244&PID_0471
+%VID_6244&PID_0460.DeviceDesc% =USB_Install, USB\VID_6244&PID_0460
+%VID_6244&PID_0461.DeviceDesc% =USB_Install, USB\VID_6244&PID_0461
+%VID_6244&PID_0500.DeviceDesc% =USB_Install, USB\VID_6244&PID_0500
+%VID_6244&PID_0501.DeviceDesc% =USB_Install, USB\VID_6244&PID_0501
+%VID_6244&PID_0520.DeviceDesc% =USB_Install, USB\VID_6244&PID_0520
+%VID_6244&PID_0521.DeviceDesc% =USB_Install, USB\VID_6244&PID_0521
+%VID_6244&PID_0480.DeviceDesc% =USB_Install, USB\VID_6244&PID_0480
+%VID_6244&PID_0481.DeviceDesc% =USB_Install, USB\VID_6244&PID_0481
+%VID_6244&PID_0540.DeviceDesc% =USB_Install, USB\VID_6244&PID_0540
+%VID_6244&PID_0541.DeviceDesc% =USB_Install, USB\VID_6244&PID_0541
+%VID_6244&PID_0560.DeviceDesc% =USB_Install, USB\VID_6244&PID_0560
+%VID_6244&PID_0561.DeviceDesc% =USB_Install, USB\VID_6244&PID_0561
+%VID_6244&PID_0570.DeviceDesc% =USB_Install, USB\VID_6244&PID_0570
+%VID_6244&PID_0571.DeviceDesc% =USB_Install, USB\VID_6244&PID_0571
+%VID_6244&PID_0580.DeviceDesc% =USB_Install, USB\VID_6244&PID_0580
+%VID_6244&PID_0581.DeviceDesc% =USB_Install, USB\VID_6244&PID_0581
+
+[Das.NTarm64]
+%VID_6244&PID_0300.DeviceDesc% =USB_Install, USB\VID_6244&PID_0300
+%VID_6244&PID_0301.DeviceDesc% =USB_Install, USB\VID_6244&PID_0301
+%VID_6244&PID_0302.DeviceDesc% =USB_Install, USB\VID_6244&PID_0302
+%VID_6244&PID_0303.DeviceDesc% =USB_Install, USB\VID_6244&PID_0303
+%VID_6244&PID_0410.DeviceDesc% =USB_Install, USB\VID_6244&PID_0410
+%VID_6244&PID_0411.DeviceDesc% =USB_Install, USB\VID_6244&PID_0411
+%VID_6244&PID_0530.DeviceDesc% =USB_Install, USB\VID_6244&PID_0530
+%VID_6244&PID_0531.DeviceDesc% =USB_Install, USB\VID_6244&PID_0531
+%VID_6244&PID_0532.DeviceDesc% =USB_Install, USB\VID_6244&PID_0532
+%VID_6244&PID_0420.DeviceDesc% =USB_Install, USB\VID_6244&PID_0420
+%VID_6244&PID_0421.DeviceDesc% =USB_Install, USB\VID_6244&PID_0421
+%VID_6244&PID_0430.DeviceDesc% =USB_Install, USB\VID_6244&PID_0430
+%VID_6244&PID_0431.DeviceDesc% =USB_Install, USB\VID_6244&PID_0431
+%VID_6244&PID_0440.DeviceDesc% =USB_Install, USB\VID_6244&PID_0440
+%VID_6244&PID_0441.DeviceDesc% =USB_Install, USB\VID_6244&PID_0441
+%VID_6244&PID_0510.DeviceDesc% =USB_Install, USB\VID_6244&PID_0510
+%VID_6244&PID_0511.DeviceDesc% =USB_Install, USB\VID_6244&PID_0511
+%VID_6244&PID_0450.DeviceDesc% =USB_Install, USB\VID_6244&PID_0450
+%VID_6244&PID_0451.DeviceDesc% =USB_Install, USB\VID_6244&PID_0451
+%VID_6244&PID_0490.DeviceDesc% =USB_Install, USB\VID_6244&PID_0490
+%VID_6244&PID_0491.DeviceDesc% =USB_Install, USB\VID_6244&PID_0491
+%VID_6244&PID_0590.DeviceDesc% =USB_Install, USB\VID_6244&PID_0590
+%VID_6244&PID_0591.DeviceDesc% =USB_Install, USB\VID_6244&PID_0591
+%VID_6244&PID_0600.DeviceDesc% =USB_Install, USB\VID_6244&PID_0600
+%VID_6244&PID_0601.DeviceDesc% =USB_Install, USB\VID_6244&PID_0601
+%VID_6244&PID_0610.DeviceDesc% =USB_Install, USB\VID_6244&PID_0610
+%VID_6244&PID_0611.DeviceDesc% =USB_Install, USB\VID_6244&PID_0611
+%VID_6244&PID_0620.DeviceDesc% =USB_Install, USB\VID_6244&PID_0620
+%VID_6244&PID_0621.DeviceDesc% =USB_Install, USB\VID_6244&PID_0621
+%VID_6244&PID_0400.DeviceDesc% =USB_Install, USB\VID_6244&PID_0400
+%VID_6244&PID_0401.DeviceDesc% =USB_Install, USB\VID_6244&PID_0401
+%VID_6244&PID_0470.DeviceDesc% =USB_Install, USB\VID_6244&PID_0470
+%VID_6244&PID_0471.DeviceDesc% =USB_Install, USB\VID_6244&PID_0471
+%VID_6244&PID_0460.DeviceDesc% =USB_Install, USB\VID_6244&PID_0460
+%VID_6244&PID_0461.DeviceDesc% =USB_Install, USB\VID_6244&PID_0461
+%VID_6244&PID_0500.DeviceDesc% =USB_Install, USB\VID_6244&PID_0500
+%VID_6244&PID_0501.DeviceDesc% =USB_Install, USB\VID_6244&PID_0501
+%VID_6244&PID_0520.DeviceDesc% =USB_Install, USB\VID_6244&PID_0520
+%VID_6244&PID_0521.DeviceDesc% =USB_Install, USB\VID_6244&PID_0521
+%VID_6244&PID_0480.DeviceDesc% =USB_Install, USB\VID_6244&PID_0480
+%VID_6244&PID_0481.DeviceDesc% =USB_Install, USB\VID_6244&PID_0481
+%VID_6244&PID_0540.DeviceDesc% =USB_Install, USB\VID_6244&PID_0540
+%VID_6244&PID_0541.DeviceDesc% =USB_Install, USB\VID_6244&PID_0541
+%VID_6244&PID_0560.DeviceDesc% =USB_Install, USB\VID_6244&PID_0560
+%VID_6244&PID_0561.DeviceDesc% =USB_Install, USB\VID_6244&PID_0561
+%VID_6244&PID_0570.DeviceDesc% =USB_Install, USB\VID_6244&PID_0570
+%VID_6244&PID_0571.DeviceDesc% =USB_Install, USB\VID_6244&PID_0571
+%VID_6244&PID_0580.DeviceDesc% =USB_Install, USB\VID_6244&PID_0580
+%VID_6244&PID_0581.DeviceDesc% =USB_Install, USB\VID_6244&PID_0581
+
+[USB_Install.ntx86]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.ntx86.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[USB_Install.ntx86.HW]
+AddReg=Dev_AddReg
+
+[USB_Install.ntamd64]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.ntamd64.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[USB_Install.ntamd64.HW]
+AddReg=Dev_AddReg
+
+[USB_Install.ntarm64]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.ntarm64.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[USB_Install.ntarm64.HW]
+AddReg=Dev_AddReg
+
+[WinUSB_ServiceInstall]
+DisplayName    = %WinUSB_SvcDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\WinUSB.sys
+
+; CRITICAL: Sunlite Suite opens the device through this interface GUID.
+; Do not change it.
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs, 0x10000,%Siudi.GUID%
+; --- keep the interface from being power-managed / suspended ---
+HKR,,EnhancedPowerManagementEnabled,0x00010001,0
+HKR,,SelectiveSuspendEnabled,0x00010001,0
+HKR,,AllowIdleIrpInD3,0x00010001,0
+HKR,,DeviceResetOnResume,0x00010001,0
+
+[Strings]
+Siudi.GUID       = "{E3515C9C-7998-4407-B387-F2B09C649696}"
+
+ProviderName="LightingSoft AG"
+
+VID_6244&PID_0300.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI6 Firmware download, 64bits)"
+VID_6244&PID_0301.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI6C, 64bits)"
+VID_6244&PID_0302.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI6A, 64bits)"
+VID_6244&PID_0303.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI6D, 32/64bits)"
+
+VID_6244&PID_0400.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK1 Firmware download, 32/64bits)"
+VID_6244&PID_0401.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK1, 32/64bits)"
+
+VID_6244&PID_0410.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI7 Firmware Download, 32/64bits)"
+VID_6244&PID_0411.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI7A, 32/64bits)"
+
+VID_6244&PID_0530.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI7B/SIUDI7C Firmware Download, 32/64bits)"
+VID_6244&PID_0531.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI7B, 32/64bits)"
+VID_6244&PID_0532.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI7C, 32/64bits)"
+
+VID_6244&PID_0420.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI8A Firmware Download, 32/64bits)"
+VID_6244&PID_0421.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI8A, 32/64bits)"
+
+VID_6244&PID_0430.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI8C Firmware Download, 32/64bits)"
+VID_6244&PID_0431.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI8C, 32/64bits)"
+
+VID_6244&PID_0440.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9A Firmware Download, 32/64bits)"
+VID_6244&PID_0441.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9A, 32/64bits)"
+
+VID_6244&PID_0510.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9B Firmware Download, 32/64bits)"
+VID_6244&PID_0511.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9B, 32/64bits)"
+
+VID_6244&PID_0450.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9C Firmware Download, 32/64bits)"
+VID_6244&PID_0451.DeviceDesc="Intelligent Usb Dmx Interface (SIUDI9C, 32/64bits)"
+
+VID_6244&PID_0490.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9D Firmware Download, 32/64bits)"
+VID_6244&PID_0491.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9D, 32/64bits)"
+
+VID_6244&PID_0590.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9S Firmware Download, 32/64bits)"
+VID_6244&PID_0591.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9S, 32/64bits)"
+
+VID_6244&PID_0600.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9M Firmware Download, 32/64bits)"
+VID_6244&PID_0601.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI9M, 32/64bits)"
+
+VID_6244&PID_0610.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI10A Firmware Download)"
+VID_6244&PID_0611.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI10A)"
+
+VID_6244&PID_0620.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI11A Firmware Download)"
+VID_6244&PID_0621.DeviceDesc ="Intelligent Usb Dmx Interface (SIUDI11A)"
+
+VID_6244&PID_0470.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK1B Firmware download, 32/64bits)"
+VID_6244&PID_0471.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK1B, 32/64bits)"
+
+VID_6244&PID_0460.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK2A Firmware download, 32/64bits)"
+VID_6244&PID_0461.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK2A, 32/64bits)"
+
+VID_6244&PID_0500.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK2B Firmware download, 32/64bits)"
+VID_6244&PID_0501.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK2B, 32/64bits)"
+
+VID_6244&PID_0520.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK2C Firmware download, 32/64bits)"
+VID_6244&PID_0521.DeviceDesc="Touch Sensitive Intelligent Control Keypad (STICK2C, 32/64bits)"
+
+VID_6244&PID_0480.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK3A Firmware download, 32/64bits)"
+VID_6244&PID_0481.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK3A, 32/64bits)"
+
+VID_6244&PID_0540.DeviceDesc ="Sunlite Universal Smart Handy Interface (SUSHI1A Firmware download, 32/64bits)"
+VID_6244&PID_0541.DeviceDesc ="Sunlite Universal Smart Handy Interface (SUSHI1A, 32/64bits)"
+
+VID_6244&PID_0560.DeviceDesc ="Das Dali Master (DDM1A Firmware download, 32/64bits)"
+VID_6244&PID_0561.DeviceDesc ="Das Dali Master (DDM1A, 32/64bits)"
+
+VID_6244&PID_0570.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK4A Firmware download, 32/64bits)"
+VID_6244&PID_0571.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK4A, 32/64bits)"
+
+VID_6244&PID_0580.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK5A Firmware download, 32/64bits)"
+VID_6244&PID_0581.DeviceDesc ="Touch Sensitive Intelligent Control Keypad (STICK5A, 32/64bits)"
+
+
+WinUSB_SvcDesc="Stick-Siudi Usb Dmx Interface Driver"
+DISK_NAME="Stick-Siudi Usb DMX Interface Driver Installation Disk"
+
+;WinUSB_SvcDesc="Touch Sensitive Intelligent Control Keypad Driver"
+;DISK_NAME="Touch Sensitive Intelligent Control Keypad Driver Installation Disk"
